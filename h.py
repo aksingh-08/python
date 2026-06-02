@@ -1,4 +1,4 @@
 x=5
-y="lan"
+x="lan"
 print(x)
-print(y)
+print(x)
