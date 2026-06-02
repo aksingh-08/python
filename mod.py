@@ -25,4 +25,10 @@ class Foo:
 # a
 # alist
 # 
+# import mod as my_module
+# my_module.a
+# def bar():
+#   from mod import foo
+#   foo('corge')
+# bar()
 # 
