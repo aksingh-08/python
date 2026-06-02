@@ -12,3 +12,8 @@ class Foo:
 # mod.foo([1, 2, 3, 4])
 # x=mod.Foo()
 # 
+# from mod import s, foo
+# s
+# foo('erivb')
+# 
+# 
