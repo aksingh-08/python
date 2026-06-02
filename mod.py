@@ -1,3 +1,6 @@
+from random import seed
+
+
 s = "If Comrade Napolean says it, it must be right."
 a = [100, 200, 300]
 def foo(arg):
@@ -32,3 +35,12 @@ class Foo:
 #   foo('corge')
 # bar()
 # 
+# Understanding standalone execution (__name__=='__main__') and import as a module
+if (__name__ == '__main__'):
+    print('Executing as standalone script')
+    print(s)
+    print(a)
+    foo('ervdv')
+    x=Foo()
+    print(x)
+
