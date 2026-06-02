@@ -17,3 +17,12 @@ class Foo:
 # foo('erivb')
 # 
 # 
+# s=23
+# a="wgwrv"
+# from mod import s as string, a as alist
+# s
+# string
+# a
+# alist
+# 
+# 
