@@ -55,3 +55,10 @@ If authenticated:
         Process user choice
         Update balance if needed
         Exit if chosen
+
+Improvement:
+- Transaction history
+- Daily windrawal limit
+- PIN change feature
+- Lockout timer
+- Decimal-based balance handling
