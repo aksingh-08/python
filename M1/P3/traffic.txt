@@ -1,0 +1,16 @@
+Create a program that:
+- accepts a sequence of traffic light states
+- alidates whether the transition follow legal traffic rules
+- detects invalid or unsafe sequences.
+
+This project trains;
+- state transition
+- sequential validation
+- rule enforcement
+- defensive design
+- structured flow control
+
+Standard traffic light sequences:
+green -> yellow
+yellow -> red
+red -> green
