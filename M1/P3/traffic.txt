@@ -14,3 +14,20 @@ Standard traffic light sequences:
 green -> yellow
 yellow -> red
 red -> green
+
+Questions:
+- What if sequence is empty?
+- what if sequence haas one element?
+- should same state repeated be allowed?
+- should case-insensitive matching be handled?
+- should system detect loops?
+
+Extend:
+WALK -> DON'T WALK
+
+QUESTIONS =>
+- return index where violation occurs
+- suggest expected next state
+- log invalid transitions
+- simulate automatic correction
+- detect if light gets stuck
