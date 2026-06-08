@@ -1,0 +1,57 @@
+You will design a console-based ATM system that:
+    - Authenticate a user using a PIN
+    - Allows balance checking
+    - Allows withdrawals
+    - Allows deposits
+    - Ends session safely
+    - Locks after multiple failed attempts
+Only structured logic.
+
+This project trains:
+    - State management
+    - Conditonal control
+    - Defensive programming
+    - Flow control
+    - Edge-case thinking
+    - User-driven loops
+
+System Rules
+    - Start with an initial balance
+    - Allow only 3 incorrect PIN attempts
+    - Prevent withdrawal before authentication
+    - Prevent withdrawing more than available balance
+    - Prevent negative deposits or withdrawals
+    - Exit cleanly when user chooses
+
+Step One - Identify the State
+Your ATM needs:
+    - stored_pin
+    - balance
+    - attempts_remaining
+    - is_authenticated
+
+Step Two - Outline the Flow
+There are two major phases:
+    Authentication phase
+    Operation phase
+
+[ Pseudocode ]
+Initialize balance
+Initialize stored PIN
+Initialize attempt counter
+
+While not authenticated and attempts remain:
+    Ask for PIN
+    If correct:
+        Authenticate
+    Else:
+        Reduce attempts
+        If attempts reach zero:
+            Lock system
+
+If authenticated:
+    Repeat:
+        Show menu
+        Process user choice
+        Update balance if needed
+        Exit if chosen
