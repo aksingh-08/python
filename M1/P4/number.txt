@@ -1,0 +1,18 @@
+program:
+- count even numbers
+- count odd numbers
+- find smallest value
+- find largest value
+- detect if strictly increasing
+- detect if strictly decreasing
+- detect duplicates
+- identify first repeated element
+
+Questions:
+- What if the list is empty?
+- what if it contains one element?
+- what defines "strictly increasing"?
+- can everything be done in one loop?
+- what is the time complexity?
+- what is the space complexity?
+
