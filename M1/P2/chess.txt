@@ -1,0 +1,30 @@
+Project trains:
+- Rule encoding
+- Coordinate reasoning
+- Conditional logic
+- System constraints
+
+Create a program that:
+- Takes a chess piece (rook. bishop, knight, etc.)
+- Takes a starting position (like e2)
+- Takes a target position (like e4)
+- Determines whether the move is valid based on piece rules
+
+We will not:
+- Handle captures
+- Handle check/checkmate
+- Handle board occupancy (initially)
+
+This is rule validation only.
+
+Why chess is perfect:
+- It forces spatial thinking
+- It forces rule clarity
+- It forces precise condition handling
+- It exposes logival gaps immediately
+
+Chess board:
+- Columns: a-h
+- Rows: 1-8
+
+Convert positions like "e2" into numeric coordinates
