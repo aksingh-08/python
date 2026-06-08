@@ -28,3 +28,54 @@ Chess board:
 - Rows: 1-8
 
 Convert positions like "e2" into numeric coordinates
+
+Rook Validator
+The rook moves:
+- Horizontally
+- Vertically
+So a move is valid if:
+- Same row OR Same column
+
+What happens if:
+- Start equals end?
+- Position is outside board?
+- Input is malformed?
+- Case sensitivity differs?
+
+Bishop:
+A bishop moves diagonally.
+Diagonal condition: |col difference| == |row difference|
+
+Knight:
+moves in L-shape:
+- 2 in one direction
+- 1 in the other
+********************************************************************************************
+currently:
+- ignoring other pieces
+- ignoring blocked paths
+- ignoring captures
+- ignoring board state
+
+Questions:
+- should we validate input format first?
+- what if user enters "z9"?
+- should we prevent zero movement?
+- should we normalize case?
+
+Right now program condition:
+- each validation is constant time.
+- we check only coordinate differnce.
+
+Full chess engine:
+- board occupancy
+- move history
+- special rule (casting, en passand)
+- check detection
+
+Improve the validator to:
+- reject moves blocked by other pieces
+- add pawn logic (forward vs capture)
+- handle castling rules
+- represent board as 2D list
+- prevent king from moving into check
