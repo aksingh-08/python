@@ -1,0 +1,37 @@
+A console-based digital pet system with:
+State variables:
+- hunger
+- energy
+- mood
+
+User actions:
+- feed
+- play
+- rest
+- check status
+- exit
+
+Rules:
+- hunger increases over time
+- playing reduces energy
+- low energy forces rest
+- high hunger decreases mood
+- values must stay within limits
+
+safe boundaries:
+- hunger: 0 to 10
+- energy: 0 to 10
+- mood: 0 to 10
+
+values must never:
+- go negative
+- exceed max
+- become inconsistent
+
+Questions:
+- what happens if hunger reaches 10?
+- what happens if energy reaches 10?
+- can mood become negative?
+- what happens if user keeps playing?
+- when does simulation end?
+
