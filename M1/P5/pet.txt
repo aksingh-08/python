@@ -35,3 +35,10 @@ Questions:
 - what happens if user keeps playing?
 - when does simulation end?
 
+Enhance system to:
+- add age variable
+- add random events
+- add happines decay over time
+- add win/loss condition
+- add scoring system
+- track action history
