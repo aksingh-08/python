@@ -16,3 +16,9 @@ Questions:
 - what is the time complexity?
 - what is the space complexity?
 
+Questions:
+- detect arithmetic progression.
+- detect geometric progression
+- detect alternating pattern
+- return longest increasing streak
+- detect plateau regions
