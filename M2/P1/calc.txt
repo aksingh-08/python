@@ -1,0 +1,6 @@
+You are building a loop-driven CLI application that:
+1. reads user commands
+2. validates and parses them
+3. executes operaions safely
+4. prints results in a predictable format
+5. handles errors without crashing
