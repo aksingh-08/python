@@ -8,7 +8,7 @@ class InventorySystem:
         self.sales_counter = Counter()
         self.item_ids = set()
 
-    def add_tem(self, item_id, name, category, quantity):
+    def add_item(self, item_id, name, category, quantity):
         if item_id in self.item_ids:
             raise ValueError("Item ID already exists")
         item_data = {
@@ -30,7 +30,7 @@ class InventorySystem:
         self.categories[category].remove(item_id)
         self.item_ids.remove(item_id)
 
-    def update_stock(self, item_id, quantity):
+    def sell_item(self, item_id, quantity):
         if item_id not in self.item_ids:
             raise ValueError("Item not found")
 
